@@ -1,3 +1,4 @@
+# A display of multiple inheritance
 from reptile import Reptile
 
 
