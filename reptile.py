@@ -13,6 +13,7 @@ class Reptile(Animal):  # Inheritance is done this way, parent classes are args
         return "shedding"
 
 
-snake = Reptile()
-print(snake.move())  # Use of an inherited method (DRY)
+if __name__ == "__main__":
+    reptile_obj = Reptile()
+    print(reptile_obj.move())  # Use of an inherited method (DRY)
 

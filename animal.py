@@ -14,8 +14,9 @@ class Animal:
         return "I move"
 
 
-animal = Animal()  # This is abstraction
-print(animal.alive)
+if __name__ == "__main__":
+    animal = Animal()  # This is abstraction
+    print(animal.alive)
 
 # How does inheritance work
 # See reptile.py
