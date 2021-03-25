@@ -13,5 +13,5 @@ class Adder(Snake):
 
 if __name__ == "__main__":
     bob = Adder()
-    print(bob.venom)
-    print(bob.smell())
+    print(bob.venom)  # variable overloading
+    print(bob.smell())  # method overloading
