@@ -5,8 +5,8 @@ class Snake(Reptile):
 
     def __init__(self):
         super().__init__()
-        self.hibernate = True  # You can override values of the parent class, this is polymorphism
         self.forked_tounge = True
+        self.venom = True
 
     def smell(self):
         return "Use tounge to smell"
